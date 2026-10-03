@@ -10,3 +10,7 @@ A repository made for easy, organized, efficient, and cool looking version contr
         - make the sprites change when the player walks in different directions
     - fix the collision glitches    
     - add a camera that can follow the player
+    0.0.3:
+      - Added new sprites and tilesets of the starting area, which is around 1/3 of the whole game 
+      - added new tree objects that act as walls and would be used as the barriers for the starting area
+      
