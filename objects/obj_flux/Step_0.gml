@@ -13,7 +13,7 @@ yspd = (downkey - upkey) * movespd
 
 // sprite animation
 
-mask_index = sprite[DOWN] 
+mask_index = sprite[DOWN]
 
 if yspd == 0
 {    
