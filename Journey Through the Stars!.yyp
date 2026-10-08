@@ -26,15 +26,18 @@
   "name":"Journey Through the Stars!",
   "resources":[
     {"id":{"name":"obj_flux","path":"objects/obj_flux/obj_flux.yy",},},
+    {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Tree1","path":"objects/Tree1/Tree1.yy",},},
     {"id":{"name":"Tree2","path":"objects/Tree2/Tree2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"spr_flux_down","path":"sprites/spr_flux_down/spr_flux_down.yy",},},
     {"id":{"name":"spr_flux_left","path":"sprites/spr_flux_left/spr_flux_left.yy",},},
     {"id":{"name":"spr_flux_right","path":"sprites/spr_flux_right/spr_flux_right.yy",},},
     {"id":{"name":"spr_flux_up","path":"sprites/spr_flux_up/spr_flux_up.yy",},},
+    {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
     {"id":{"name":"spr_tree1","path":"sprites/spr_tree1/spr_tree1.yy",},},
     {"id":{"name":"spr_tree2","path":"sprites/spr_tree2/spr_tree2.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
@@ -45,6 +48,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
