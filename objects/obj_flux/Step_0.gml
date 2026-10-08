@@ -11,6 +11,14 @@ downkey = keyboard_check(vk_down);
 xspd = (rightkey - leftkey) * movespd
 yspd = (downkey - upkey) * movespd
 
+// room transition
+
+if instance_exists(obj_pauser)
+{
+    xspd = 0;
+    yspd = 0;
+}
+
 // sprite animation
 
 mask_index = sprite[DOWN]
