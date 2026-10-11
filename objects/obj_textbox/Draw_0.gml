@@ -4,7 +4,7 @@ skip_key = keyboard_check_pressed(ord("X"))
 textbox_x = camera_get_view_x(view_camera[0]);
 textbox_y = camera_get_view_y(view_camera[0]) + 170;
 
-//----------setting up the textbox----------//
+//----------setting up the textbox-----------//
 if setup = false 
    {
         setup = true;
@@ -21,13 +21,82 @@ if setup = false
         //set x offset
             //x offset when centered(no NPC speaking)
             text_x_offset[p] = 73;
-       	
+            
+        //setting characters and finding line breaks   
+            for (var c = 0; c < text_length[p]; c++) 
+                {
+                    var chara_pos = c+1;
+                    
+                    
+                    
+                    //store characters
+                    chara[c,p] = string_char_at(text[p], chara_pos)
+                    
+                    //width of the line
+                    var text_upto_chara = string_copy(text[p], 1, chara_pos);
+                    var current_text_w = string_width(text_upto_chara) - string_width(chara[c, p]);
+                    
+                    //get last free space
+                    if chara[c, p] == " " 
+                        {
+                            last_free_space = chara_pos + 1
+                        }
+                    //get the line breaks
+                    if current_text_w - line_break_offset[p] > line_width
+                        {
+                            line_break_pos[line_break_num[p], p] = last_free_space;
+                            line_break_num[p]++;
+                            
+                            var text_upto_last_space = string_copy(text[p], 1, last_free_space);
+                            var last_string_free_space = string_char_at(text[p], last_free_space);
+                            line_break_offset[p] = string_width(text_upto_last_space) - string_width(last_string_free_space);
+                        }
+                    
+                }
+                    
+                //coordinates of each character
+                for (var c = 0; c < text_length[p]; c++) 
+                   {
+                   	var chara_pos = c+1;
+                    var txt_x = textbox_x + text_x_offset[p] + border;
+                    var txt_y = textbox_y + border;
+                    //width of the line
+                    var text_upto_chara = string_copy(text[p], 1, chara_pos)
+                    var spaces_num = chara_pos-1;
+                    var current_text_w = string_width(text_upto_chara) - string_width(chara[c, p]) + (spaces_num*letter_sep);
+                    var txt_line = 0;
+                    
+                    //comp for string breaks
+                    for (var b = 0; b < line_break_num[p]; b++) 
+                        {
+                    	if chara_pos >= line_break_pos[b, p]
+                            {
+                                var str_copy = string_copy(text[p], line_break_pos[b, p], chara_pos - line_break_pos[b, p]);
+                                current_text_w = string_width(str_copy);
+                                txt_line = b+1;
+                            }
+                        }
+                    
+                    //add to x and y
+                    chara_x[c, p] = txt_x + current_text_w;
+                    chara_y[c, p] = txt_y + txt_line*line_sep;
+                    
+                    
+                    
+                   }
+                    
+                    
+                    
+               
+                    
+            	
+                }
         }
     
     
-   }
 
-//--------------typing the text--------------//
+
+//--------------typing the text---------------//
 if draw_chara < text_length[page]
     {
         draw_chara += text_spd
@@ -77,7 +146,7 @@ txtb_spr_h = sprite_get_height(spr_text_box);
 
 draw_sprite_ext(textbox_sprite, textbox_img, txtb_x, txtb_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 0.75)
 
-//--------------options-----------//
+//--------------options-------------//
 
 if draw_chara == text_length[page] and page == page_number-1
     {
@@ -117,5 +186,9 @@ if draw_chara == text_length[page] and page == page_number-1
 
 
 //draw the text
-var drawtext = string_copy(text[page], 1, draw_chara)
-draw_text_ext_transformed(txtb_x + border, txtb_y + border, drawtext, line_sep, line_width, 1.15, 1.15, 0)
+for (var c = 0; c < draw_chara; c++) 
+{
+    
+	draw_text_transformed(chara_x[c,page] +3, chara_y[c, page], chara[c, page], 1.15, 1.15, 0)
+    
+}

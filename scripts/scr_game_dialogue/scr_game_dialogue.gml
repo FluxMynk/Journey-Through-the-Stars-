@@ -17,7 +17,7 @@ function scr_text_id(text_id)
                     break; 
                 
                 case "4":
-                    scr_text("ahhhh, now and then, now and then, ill just break again");
+                    scr_text("ahhhh, now and then, now and then, ill just break againnn n n n ");
                         scr_option("it's bitter","4-yes")
                         scr_option("wha?","4-no")
                         scr_option("Shoujo A is bad","4-NO")
