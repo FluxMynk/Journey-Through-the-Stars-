@@ -17,13 +17,15 @@ function scr_text_id(text_id)
                     break; 
                 
                 case "4":
-                    scr_text("ahhhh, now and then, now and then, ill just break againnn n n n ");
+                    scr_text("Hi! I'm cedric, how are u today?", "cedric")
+                    scr_text("Sing along!")
+                    scr_text("Ahhhh, now and then, now and then, I'll just break again", "cedric")
                         scr_option("it's bitter","4-yes")
                         scr_option("wha?","4-no")
                         scr_option("Shoujo A is bad","4-NO")
                     break; 
                     case "4-yes":
-                        scr_text("The cold, the cold, the cold, the cold")
+                        scr_text("The cold, the cold, the cold, the cold","cedric")
                         break;
                     case "4-no":
                         scr_text("bad fluxmynk")

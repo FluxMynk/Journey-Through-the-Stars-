@@ -19,15 +19,25 @@ if setup = false
         text_length[p] = string_length(text[p])
         
         //set x offset
+            //portrait on screen(NPC speaking)
+            //on the left
+            text_x_offset[p] = 114;
+            portrait_x_offset[p] = 29; 
+            //on the right
+            if speaker_side[p] == -1
+            {
+                text_x_offset[p] = 29
+                portrait_x_offset[p] = 371;
+            }
             //x offset when centered(no NPC speaking)
-            text_x_offset[p] = 73;
-            
+            if  speaker_sprite[p] = noone
+                { 
+                text_x_offset[p] = 73;
+                }
         //setting characters and finding line breaks   
             for (var c = 0; c < text_length[p]; c++) 
                 {
                     var chara_pos = c+1;
-                    
-                    
                     
                     //store characters
                     chara[c,p] = string_char_at(text[p], chara_pos)
@@ -83,11 +93,11 @@ if setup = false
                     
                     
                     
-                   }
+                    }
                     
                     
                     
-               
+                    
                     
             	
                 }
@@ -141,10 +151,25 @@ if draw_chara < text_length[page] and skip_key
 //drawing the textbox
 var txtb_x = textbox_x + text_x_offset[page];
 var txtb_y = textbox_y;
-txtb_spr_w = sprite_get_width(spr_text_box);
-txtb_spr_h = sprite_get_height(spr_text_box);
+txtb_spr_w = sprite_get_width(textbox_sprite[page]);
+txtb_spr_h = sprite_get_height(textbox_sprite[page]);
 
-draw_sprite_ext(textbox_sprite, textbox_img, txtb_x, txtb_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 0.75)
+//draw the speaker's portrait 
+if speaker_sprite[page] != noone
+    {
+        sprite_index = speaker_sprite[page];
+        var speaker_x = textbox_x + portrait_x_offset[page];
+        if speaker_side[page] == -1 
+            {
+                speaker_x += sprite_width
+            }
+        //draw the portrait
+        draw_sprite_ext(textbox_sprite[page], textbox_img, textbox_x + portrait_x_offset[page], textbox_y, sprite_width/txtb_spr_w, sprite_height/txtb_spr_h, 0, c_white, 0.75);
+        draw_sprite_ext(sprite_index, image_index, speaker_x, textbox_y-1, speaker_side[page], 1, 0, c_white, 1);
+    }
+
+//textbox background
+draw_sprite_ext(textbox_sprite[page], textbox_img, txtb_x, txtb_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 0.75)
 
 //--------------options-------------//
 
@@ -161,7 +186,7 @@ if draw_chara == text_length[page] and page == page_number-1
             {
                 //option box
         	    var op_w = string_width(option[op]) + op_bord*2; 
-                draw_sprite_ext(textbox_sprite, textbox_img, txtb_x, txtb_y - op_space*option_number + op_space*op, op_w/txtb_spr_w, (op_space-1)/txtb_spr_h, 0, c_white,0.75)
+                draw_sprite_ext(textbox_sprite[page], textbox_img, txtb_x, txtb_y - op_space*option_number + op_space*op, op_w/txtb_spr_w, (op_space-1)/txtb_spr_h, 0, c_white,0.75);
                     
                 //select options
                 var c1 = c_white

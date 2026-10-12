@@ -17,7 +17,7 @@ chara_x[0] = 0;
 chara_y[0] = 0;
 text_spd = 1;
 page_number = 0;
-textbox_sprite = spr_text_box;
+textbox_sprite[0] = spr_text_box;
 textbox_img = 0;
 letter_sep = 0.74;
 //options
