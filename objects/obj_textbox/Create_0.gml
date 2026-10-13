@@ -18,8 +18,12 @@ chara_y[0] = 0;
 text_spd = 1;
 page_number = 0;
 textbox_sprite[0] = spr_text_box;
-textbox_img = 0;
+textbox_img = image_index;
+textbox_img_spd = 0.15;
 letter_sep = 0.74;
+pause_timer = 0;
+pause_time = 16;
+
 //options
 option[0] = 0;
 option_link_id[0] = -1;

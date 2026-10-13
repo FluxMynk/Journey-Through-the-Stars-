@@ -21,13 +21,13 @@ if setup = false
         //set x offset
             //portrait on screen(NPC speaking)
             //on the left
-            text_x_offset[p] = 114;
-            portrait_x_offset[p] = 29; 
+            text_x_offset[p] = 118;
+            portrait_x_offset[p] = 36; 
             //on the right
             if speaker_side[p] == -1
             {
-                text_x_offset[p] = 29
-                portrait_x_offset[p] = 371;
+                text_x_offset[p] = 28;
+                portrait_x_offset[p] = 372;
             }
             //x offset when centered(no NPC speaking)
             if  speaker_sprite[p] = noone
@@ -104,15 +104,30 @@ if setup = false
         }
     
     
+    
 
 
 //--------------typing the text---------------//
-if draw_chara < text_length[page]
+if pause_timer <= 0
     {
-        draw_chara += text_spd
-        draw_chara = clamp(draw_chara, 0, text_length[page])
-    }
 
+    if draw_chara < text_length[page] 
+        {
+            draw_chara += text_spd;
+            draw_chara = clamp(draw_chara, 0, text_length[page]);
+            var check_character = string_char_at(text[page], draw_chara);
+            if check_character == "." or check_character == "!" or check_character == "," or check_character = "?"
+               {
+                    pause_timer = pause_time;
+               }
+        }
+    } 
+    else  
+        {
+        
+        pause_timer--;	
+           
+        }
 
 //--------------going through dialogue----------------//
 if accept_key
@@ -164,9 +179,11 @@ if speaker_sprite[page] != noone
                 speaker_x += sprite_width
             }
         //draw the portrait
-        draw_sprite_ext(textbox_sprite[page], textbox_img, textbox_x + portrait_x_offset[page], textbox_y, sprite_width/txtb_spr_w, sprite_height/txtb_spr_h, 0, c_white, 0.75);
-        draw_sprite_ext(sprite_index, image_index, speaker_x, textbox_y-1, speaker_side[page], 1, 0, c_white, 1);
+        draw_sprite_ext(textbox_sprite[page], textbox_img, textbox_x + portrait_x_offset[page] - 4, textbox_y, 8 , 8, 0, c_white, 0.75);
+        draw_sprite_ext(sprite_index, image_index, speaker_x + 4, textbox_y, speaker_side[page], 1, 0, c_white, 1);
     }
+//make the textbox animate
+textbox_img += textbox_img_spd;
 
 //textbox background
 draw_sprite_ext(textbox_sprite[page], textbox_img, txtb_x, txtb_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 0.75)
@@ -214,6 +231,6 @@ if draw_chara == text_length[page] and page == page_number-1
 for (var c = 0; c < draw_chara; c++) 
 {
     
-	draw_text_transformed(chara_x[c,page] +3, chara_y[c, page], chara[c, page], 1.15, 1.15, 0)
+	draw_text_transformed_colour(chara_x[c,page] +3, chara_y[c, page], chara[c, page], 1.15, 1.15, 0, color1[c, page], color2[c, page], color3[c, page], color4[c, page], 1)
     
 }
