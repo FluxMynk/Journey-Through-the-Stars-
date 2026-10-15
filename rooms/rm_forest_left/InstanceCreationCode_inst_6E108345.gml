@@ -1,4 +1,4 @@
 targetx = 32; 
 targety = 128;
-targetroom = Room2;
+targetroom = rm_forest_home;
 face = RIGHT;

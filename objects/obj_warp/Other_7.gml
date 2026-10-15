@@ -1,6 +1,6 @@
 room_goto(targetroom);
-obj_flux.x = targetx;
-obj_flux.y = targety;
-obj_flux.face = face;
+obj_cedric.x = targetx;
+obj_cedric.y = targety;
+obj_cedric.face = face;
 
 image_speed = -1;
