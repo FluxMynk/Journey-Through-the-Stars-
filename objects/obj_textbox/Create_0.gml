@@ -1,11 +1,11 @@
 depth = -9999
 
 //parameters
-textbox_width = 334;
-textbox_height = 80;
+textbox_width = 234;
+textbox_height = 60;
 border = 8;
 line_sep = 12;
-line_width = (textbox_width-border*8);
+line_width = (textbox_width-border*6);
 
 //text
 page = 0;
@@ -15,7 +15,7 @@ draw_chara = 0;
 chara[0,0] = "";
 chara_x[0] = 0;
 chara_y[0] = 0;
-text_spd = 1;
+text_spd = 0.7;
 page_number = 0;
 textbox_sprite[0] = spr_text_box;
 textbox_img = image_index;

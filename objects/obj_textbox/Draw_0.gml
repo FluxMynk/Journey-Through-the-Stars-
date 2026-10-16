@@ -2,7 +2,7 @@ accept_key = keyboard_check_pressed(ord("Z"))
 skip_key = keyboard_check_pressed(ord("X"))
 
 textbox_x = camera_get_view_x(view_camera[0]);
-textbox_y = camera_get_view_y(view_camera[0]) + 170;
+textbox_y = camera_get_view_y(view_camera[0]) + 132;
 
 //----------setting up the textbox-----------//
 if setup = false 
@@ -21,18 +21,18 @@ if setup = false
         //set x offset
             //portrait on screen(NPC speaking)
             //on the left
-            text_x_offset[p] = 118;
-            portrait_x_offset[p] = 36; 
+            text_x_offset[p] = 97;
+            portrait_x_offset[p] = 27; 
             //on the right
             if speaker_side[p] == -1
             {
-                text_x_offset[p] = 28;
-                portrait_x_offset[p] = 372;
+                text_x_offset[p] = 27;
+                portrait_x_offset[p] = 271;
             }
             //x offset when centered(no NPC speaking)
             if  speaker_sprite[p] = noone
                 { 
-                text_x_offset[p] = 73;
+                text_x_offset[p] = 63 ;
                 }
         //setting characters and finding line breaks   
             for (var c = 0; c < text_length[p]; c++) 
@@ -176,11 +176,11 @@ if speaker_sprite[page] != noone
         var speaker_x = textbox_x + portrait_x_offset[page];
         if speaker_side[page] == -1 
             {
-                speaker_x += sprite_width
+                speaker_x += sprite_width*0.806
             }
         //draw the portrait
-        draw_sprite_ext(textbox_sprite[page], textbox_img, textbox_x + portrait_x_offset[page] - 4, textbox_y, 8 , 8, 0, c_white, 0.75);
-        draw_sprite_ext(sprite_index, image_index, speaker_x + 4, textbox_y, speaker_side[page], 1, 0, c_white, 1);
+        draw_sprite_ext(textbox_sprite[page], textbox_img, textbox_x + portrait_x_offset[page], textbox_y, 6.2 , 6, 0, c_white, 0.75);
+        draw_sprite_ext(sprite_index, image_index, speaker_x + 2, textbox_y - 5.12, 0.806, 0.812, 0, c_white, 1);
     }
 //make the textbox animate
 textbox_img += textbox_img_spd;
@@ -231,6 +231,6 @@ if draw_chara == text_length[page] and page == page_number-1
 for (var c = 0; c < draw_chara; c++) 
 {
     
-	draw_text_transformed_colour(chara_x[c,page] +3, chara_y[c, page], chara[c, page], 1.15, 1.15, 0, color1[c, page], color2[c, page], color3[c, page], color4[c, page], 1)
+	draw_text_transformed_colour(chara_x[c,page] +3, chara_y[c, page], chara[c, page], 1, 1, 0, color1[c, page], color2[c, page], color3[c, page], color4[c, page], 1)
     
 }
