@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_cedric_neutral",
   "bboxMode":0,
-  "bbox_bottom":78,
+  "bbox_bottom":79,
   "bbox_left":10,
   "bbox_right":53,
   "bbox_top":8,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"171344c3-53e1-41bb-b267-479ac836b402","name":"171344c3-53e1-41bb-b267-479ac836b402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54dfe861-0633-4860-b503-259bb3e4262a","name":"54dfe861-0633-4860-b503-259bb3e4262a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":80,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"661a85e2-3543-42e1-a5ec-fce180a408e8","blendMode":0,"displayName":"default","isLocked":false,"name":"661a85e2-3543-42e1-a5ec-fce180a408e8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1f2a8cf0-3340-4b5d-a031-1c278503059d","blendMode":0,"displayName":"default","isLocked":false,"name":"1f2a8cf0-3340-4b5d-a031-1c278503059d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cedric_neutral",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"171344c3-53e1-41bb-b267-479ac836b402","path":"sprites/spr_cedric_neutral/spr_cedric_neutral.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"77fe41ed-3972-4fc7-9b89-e11cebb85b93","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54dfe861-0633-4860-b503-259bb3e4262a","path":"sprites/spr_cedric_neutral/spr_cedric_neutral.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8331e77d-6e97-4769-afe0-f2833e1819fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

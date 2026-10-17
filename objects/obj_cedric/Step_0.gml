@@ -11,6 +11,19 @@ downkey = keyboard_check(vk_down);
 xspd = (rightkey - leftkey) * movespd
 yspd = (downkey - upkey) * movespd
 
+// sprint
+
+if keyboard_check(vk_lshift) == true
+{
+    xspd = (rightkey - leftkey) * movespd * 2
+    yspd = (downkey - upkey) * movespd * 2
+}
+else 
+{
+	xspd = (rightkey - leftkey) * movespd
+    yspd = (downkey - upkey) * movespd
+}
+
 // room transition
 
 if instance_exists(obj_pauser)

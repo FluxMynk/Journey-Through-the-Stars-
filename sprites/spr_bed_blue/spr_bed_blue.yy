@@ -1,9 +1,9 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_bed_blue",
-  "bboxMode":0,
-  "bbox_bottom":63,
-  "bbox_left":0,
+  "bboxMode":2,
+  "bbox_bottom":54,
+  "bbox_left":1,
   "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,

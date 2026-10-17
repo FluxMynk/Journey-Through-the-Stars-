@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_cedric_meme",
   "bboxMode":0,
-  "bbox_bottom":78,
+  "bbox_bottom":79,
   "bbox_left":10,
   "bbox_right":53,
   "bbox_top":8,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"09318f5c-84d6-402d-9149-71f0f802471d","name":"09318f5c-84d6-402d-9149-71f0f802471d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1415c9f-1e9e-4206-b404-89664c542fff","name":"f1415c9f-1e9e-4206-b404-89664c542fff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":80,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"98d9e87d-6741-4edd-b558-6e796cfdde85","blendMode":0,"displayName":"default","isLocked":false,"name":"98d9e87d-6741-4edd-b558-6e796cfdde85","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3bb231d0-fc18-4640-a563-0868de9ab48f","blendMode":0,"displayName":"default","isLocked":false,"name":"3bb231d0-fc18-4640-a563-0868de9ab48f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cedric_meme",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"09318f5c-84d6-402d-9149-71f0f802471d","path":"sprites/spr_cedric_meme/spr_cedric_meme.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9ce0298-1f6a-47bb-b287-987532499035","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1415c9f-1e9e-4206-b404-89664c542fff","path":"sprites/spr_cedric_meme/spr_cedric_meme.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c84a0ddc-a26b-4dee-955e-e2ad49fe4b6f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

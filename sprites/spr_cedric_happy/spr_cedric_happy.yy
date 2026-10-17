@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_cedric_happy",
   "bboxMode":0,
-  "bbox_bottom":78,
+  "bbox_bottom":79,
   "bbox_left":10,
   "bbox_right":53,
   "bbox_top":8,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6061290d-4b9c-467a-9e99-894d3320aa38","name":"6061290d-4b9c-467a-9e99-894d3320aa38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a4a1874-9b66-43fd-b31f-79017eef3d97","name":"6a4a1874-9b66-43fd-b31f-79017eef3d97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":80,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"57f7fc4c-9967-4248-9900-215f2173dee2","blendMode":0,"displayName":"default","isLocked":false,"name":"57f7fc4c-9967-4248-9900-215f2173dee2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b1e83e2f-8581-47b0-9cc5-e523e082131c","blendMode":0,"displayName":"default","isLocked":false,"name":"b1e83e2f-8581-47b0-9cc5-e523e082131c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cedric_happy",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6061290d-4b9c-467a-9e99-894d3320aa38","path":"sprites/spr_cedric_happy/spr_cedric_happy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f1c441fa-7ad7-4716-8e78-61c483314a42","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a4a1874-9b66-43fd-b31f-79017eef3d97","path":"sprites/spr_cedric_happy/spr_cedric_happy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"900ae1a7-b2d3-4ccd-b434-efc777e2ea94","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

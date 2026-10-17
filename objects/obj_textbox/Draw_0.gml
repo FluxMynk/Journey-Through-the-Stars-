@@ -179,14 +179,14 @@ if speaker_sprite[page] != noone
                 speaker_x += sprite_width*0.806
             }
         //draw the portrait
-        draw_sprite_ext(textbox_sprite[page], textbox_img, textbox_x + portrait_x_offset[page], textbox_y, 6.2 , 6, 0, c_white, 0.75);
-        draw_sprite_ext(sprite_index, image_index, speaker_x + 2, textbox_y - 5.12, 0.806, 0.812, 0, c_white, 1);
+        draw_sprite_ext(textbox_sprite[page], textbox_img, textbox_x + portrait_x_offset[page], textbox_y, 6.2 , 6, 0, c_white, 0.85);
+        draw_sprite_ext(sprite_index, image_index, speaker_x + 6, textbox_y - 5.12, 0.8, 0.8, 0, c_white, 1);
     }
 //make the textbox animate
 textbox_img += textbox_img_spd;
 
 //textbox background
-draw_sprite_ext(textbox_sprite[page], textbox_img, txtb_x, txtb_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 0.75)
+draw_sprite_ext(textbox_sprite[page], textbox_img, txtb_x, txtb_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 0.88)
 
 //--------------options-------------//
 

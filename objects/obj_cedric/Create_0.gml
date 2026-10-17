@@ -3,7 +3,7 @@
 xspd = 0;
 yspd = 0;
 
-movespd = 1;
+movespd = 1 ;
 
 // sprite animation 
 sprite[RIGHT] = spr_flux_right

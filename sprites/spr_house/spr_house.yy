@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_house",
-  "bboxMode":0,
-  "bbox_bottom":130,
+  "bboxMode":2,
+  "bbox_bottom":113,
   "bbox_left":0,
-  "bbox_right":134,
+  "bbox_right":136,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

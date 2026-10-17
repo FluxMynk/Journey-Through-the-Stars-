@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_cedric_dissapointed",
   "bboxMode":0,
-  "bbox_bottom":78,
+  "bbox_bottom":79,
   "bbox_left":10,
   "bbox_right":53,
   "bbox_top":8,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"43673ac9-d9c1-4838-a4f9-46cfc2b812f4","name":"43673ac9-d9c1-4838-a4f9-46cfc2b812f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43f9ccb2-f52c-495b-b67e-190e728738d9","name":"43f9ccb2-f52c-495b-b67e-190e728738d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":80,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"701fecd1-ab70-4583-8d98-af518cc030b7","blendMode":0,"displayName":"default","isLocked":false,"name":"701fecd1-ab70-4583-8d98-af518cc030b7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b1e5121e-5d12-426d-93b2-d8bfd89e2567","blendMode":0,"displayName":"default","isLocked":false,"name":"b1e5121e-5d12-426d-93b2-d8bfd89e2567","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cedric_dissapointed",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43673ac9-d9c1-4838-a4f9-46cfc2b812f4","path":"sprites/spr_cedric_dissapointed/spr_cedric_dissapointed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"91f05997-4c77-49ba-b592-c5026e434204","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43f9ccb2-f52c-495b-b67e-190e728738d9","path":"sprites/spr_cedric_dissapointed/spr_cedric_dissapointed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2d37669b-52d0-4ec2-893a-38d1150dcac9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

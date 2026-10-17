@@ -5,7 +5,7 @@ textbox_width = 234;
 textbox_height = 60;
 border = 8;
 line_sep = 12;
-line_width = (textbox_width-border*6);
+line_width = (textbox_width-border*6 -2);
 
 //text
 page = 0;

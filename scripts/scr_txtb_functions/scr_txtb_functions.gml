@@ -73,6 +73,14 @@ function scr_text(_text)
                 case "cedric-shocked":
                     speaker_sprite[page_number] = spr_cedric_shocked;
                     break;
+                case "cedric-smile":
+                    speaker_sprite[page_number] = spr_cedric_smile;
+                    break;
+                case "cedric-sad":
+                    speaker_sprite[page_number] = spr_cedric_sad;
+                    break; 
+                case "cedric-confused":
+                    speaker_sprite[page_number] = spr_cedric_confused;
             }
                 
         	

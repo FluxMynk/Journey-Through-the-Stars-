@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_cedric_shocked",
   "bboxMode":0,
-  "bbox_bottom":78,
+  "bbox_bottom":79,
   "bbox_left":10,
   "bbox_right":53,
   "bbox_top":8,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"05d92417-928b-4869-b536-ea7abb2e2745","name":"05d92417-928b-4869-b536-ea7abb2e2745","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f871c94a-b5ed-4a81-a62e-545defb40275","name":"f871c94a-b5ed-4a81-a62e-545defb40275","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":80,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8fce1836-b458-4a40-bce0-d87ab7342cb9","blendMode":0,"displayName":"default","isLocked":false,"name":"8fce1836-b458-4a40-bce0-d87ab7342cb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1781f636-e72d-4311-9e02-5712ac3a9b83","blendMode":0,"displayName":"default","isLocked":false,"name":"1781f636-e72d-4311-9e02-5712ac3a9b83","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cedric_shocked",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05d92417-928b-4869-b536-ea7abb2e2745","path":"sprites/spr_cedric_shocked/spr_cedric_shocked.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"732f0f14-9768-47fc-838f-983d0a8abaee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f871c94a-b5ed-4a81-a62e-545defb40275","path":"sprites/spr_cedric_shocked/spr_cedric_shocked.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4e61d60a-ada8-4084-87e6-8b0a61351b74","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
