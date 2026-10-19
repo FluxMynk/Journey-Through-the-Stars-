@@ -7,8 +7,8 @@ function scr_text_id(text_id)
         switch (text_id) 
             {
                 
-                //--------------lake------------//
-                 case "hazel":
+                //--------------lake-------------//
+                case "hazel":
                       scr_text("Oh Hey there! You're Hazel right?","cedric-smile") 
                       scr_text(". . . .")
                       scr_text("Ummmm, Hello? Are you hazel? Wiz told me to introduce myself to you!","cedric")
@@ -31,31 +31,10 @@ function scr_text_id(text_id)
                 case "hazel-leave":
                     scr_text("(I should leave her alone.)","cedric-sad") 
                     break;
+                    
+                    
+                    
                 
-                
-                //-------------testing-------------//   
-                case "4":
-                    scr_text("Hi! I'm cedric, the vampire mage, how are you doing today?","cedric");
-                        scr_colored_text(8, 13, c_yellow, c_yellow, c_yellow, c_yellow)
-                    scr_text("Sing along!");
-                    scr_text("Ahhhh, now and then, now and then, I'll just break again","cedric");
-                        scr_option("it's bitter","4-yes")
-                        scr_option("wha?","4-no")
-                        scr_option("Shoujo A is bad","4-NO")
-                    break; 
-                    case "4-yes":
-                        scr_text("The cold, the cold, the cold, the cold","cedric-happy")
-                        break;
-                    
-                    case "4-no":
-                        scr_text("bad fluxmynk","cedric-dissapointed")
-                        break;
-                    
-                    case "4-NO":
-                        scr_text(". . .","cedric-shocked")
-                        break;
-                    
-                    
                 //------------inside the house--------------//
                 case "bed-hazel":
                     scr_text("A bed with dark blue sheets.")
@@ -97,17 +76,15 @@ function scr_text_id(text_id)
                         scr_text("I'll take a look. . .","cedric")
                         scr_text("Inside the boxes you find. . . an arrow pointing to the left. . . A plant pot. . . And a toy bear.")
                         scr_text("IS THAT MY TEDDY BEAR!?!!","cedric-shocked")
-                        scr_text("How did it get here???","cedric_confused")
+                        scr_text("How did it get here???","cedric-confused")
                         break;
                     case "boxes-no":
                         scr_text("It probably has wiz's stuff.","cedric")
                         break;
                     
-                    
-                //--------trees----------//
-                case "trees":
-                    scr_text("A big tree! Who doesn't like em!") 
-                    break;   
+                
+                
+                
                 
                 //--------------Wiz--------------//
                 case "wiz":
@@ -118,7 +95,7 @@ function scr_text_id(text_id)
                     scr_text("Hey! I didn't say i became a good one!")
                     scr_text("Hehehe!","cedric-happy")
                     scr_text("Anyways, Remind me what was your name again?")
-                    scr_text("you gotta be kidding me, first you kidnap me now you don't remember my name?","cedric-dissapointed")
+                    scr_text("you gotta be kidding me, first you kidnap me and now you don't even remember my name?","cedric-dissapointed")
                     scr_text("Chill, Ced, i'm old, but not that old! I'm still in my thirties!")
                     scr_text("LATE thirties! hehehehe!","cedric-happy") 
                     scr_text("So what is this place exactly?","cedric-confused")
@@ -156,16 +133,16 @@ function scr_text_id(text_id)
                     scr_text("There's a maze?! Now you're really cool!","cedric-smile")
                     scr_text("You bet i am!")
                     scr_text("Ok now hurry up! You don't want to keep me waiting, Don't you?")
-                    scr_text("I'm on it!")
+                    scr_text("I'm on it!","cedric-smile")
                     break;
                 case "wiz-4":
                     scr_text("You don't want to keep me waiting, Don't you? Go get the star!")
                     break;
                 
                 
+                
+                
                 //--------------------signs------------------//
-                
-                
                 case "sign1":
                     scr_text("Room 1:                          A Tree! Who doesn't like em!")
                     scr_text("So true.","cedric-smile")
@@ -206,11 +183,60 @@ function scr_text_id(text_id)
                     scr_text("At least there is a door made of literal light so i guess it's time to go to heaven","cedric-smile")
                     break;
                 case "sign-start":
-                    scr_text("Weclome to the maze! hopefully it'll be an enjoyable experience.")
+                    scr_text("Weclome to the maze! hopefully it'll be an enjoyable experience. . .")
                     scr_text("Before starting we'd advise you to explore and interact with stuff(and people) as much as you can, You don't want to miss out on anything, don't you?")
                     scr_text("Oh and one more thing, Right = 1, Up = 2, and just continue the cycle yourself!")
                     scr_text("Now you're ready to go! Have fun!")
                     scr_text("I Personally don't find mazes that fun but we'll see. . .","cedric")
                     break;
+                
+                
+                
+                
+                //-----------------decorations-----------------//
+                case "bench":
+                    scr_text("A sturdy, Blue, Park bench.")
+                    scr_text("It has the words 'Belongs to wiz' carved on it.")
+                    scr_text("A Comfy bench in the middle of a quiet forest. . .","cedric-smile")
+                    scr_text("This might be the best thing i've witnessed so far!","cedric-happy")
+                    break;
+                case "swing":
+                    scr_text("Oh a Swing!","cedric-smile")
+                    scr_text("Might be useful for lazing around. . .","cedric-smile")
+                    break;
+                
+                
+                
+                //----------------------trigger blocks-----------------------//
+                case "forest-wiz":
+                    scr_text("This place is nothing like the castle. . .","cedric")
+                    scr_text("Not like it matters, I'd rather eat raw fish than go back there anyways!","cedric")
+                    scr_text("Wait i think that's called sushi. . .","cedric-confused") 
+                    scr_text("HEY KID! COME DOWN HERE!")
+                    scr_text("That sounds like wiz! Better get going!","cedric-smile")
+                    break;
+                
+                
+                //-------------testing-------------//
+                case "4":
+                    scr_text("Hi! I'm cedric, the vampire mage! how are you doing today?","cedric-smile");
+                        scr_colored_text(8, 13, c_yellow, c_yellow, c_yellow, c_yellow)
+                    scr_text("Sing along!");
+                    scr_text("Ahhhh, now and then, now and then, I'll just break again","cedric-smile");
+                        scr_option("it's bitter","4-yes")
+                        scr_option("wha?","4-no")
+                        scr_option("Shoujo A is bad","4-NO")
+                    break; 
+                    case "4-yes":
+                        scr_text("The cold, the cold, the cold, the cold!","cedric-happy")
+                        break;
+                    
+                    case "4-no":
+                        scr_text("bad fluxmynk","cedric-dissapointed")
+                        break;
+                    
+                    case "4-NO":
+                        scr_text(". . .","cedric-shocked")
+                        break;
             }
     } 

@@ -1,4 +1,4 @@
-targetx = 101;
-targety = 24;
-targetroom = rm_forest_maze;
+targetx = 183;
+targety = 207;
+targetroom = rm_maze_starting;
 face = UP;

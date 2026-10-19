@@ -1,2 +1,2 @@
 depth = -bbox_bottom
-hazel = 0
+global.hazel = 0

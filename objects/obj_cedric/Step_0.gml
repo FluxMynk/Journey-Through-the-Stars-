@@ -1,5 +1,4 @@
-
-// keypresses as variables to save time while coding
+// keypresses as variables to save time
 
 rightkey = keyboard_check(vk_right);
 leftkey = keyboard_check(vk_left);
@@ -67,6 +66,10 @@ if place_meeting(x, y + yspd, obj_wall)
     yspd = 0
     }
 
+if place_meeting(x, y, obj_endgame)
+    {
+        game_end()
+    }
 
 // basic movement
 

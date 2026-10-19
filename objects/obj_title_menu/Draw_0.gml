@@ -35,7 +35,7 @@ for (var i = 0; i < op_length; i++)
     if pos == i 
         { 
             c1 = c_yellow;
-            c2 = c_blue; 
+            c2 = c_blue;
             c3 = c_purple; 
             c4 = c_black;
         }
