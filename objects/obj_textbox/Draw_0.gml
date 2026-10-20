@@ -216,7 +216,7 @@ if draw_chara == text_length[page] and page == page_number-1
                     c1 = c_yellow;
                     c2 = c_blue; 
                     c3 = c_purple; 
-                    c4 = c_black;
+                    c4 = c_yellow;
                     }    
                 //option text
                 draw_text_colour(txtb_x + op_bord, txtb_y - op_space*option_number + op_space*op + 2, option[op], c1, c2, c3, c4, 1)

@@ -37,7 +37,7 @@ for (var i = 0; i < op_length; i++)
             c1 = c_yellow;
             c2 = c_blue;
             c3 = c_purple; 
-            c4 = c_black;
+            c4 = c_yellow;
         }
 	draw_text_color(x + op_border, y + op_border + op_space*i, option[menu_level, i], c1, c2, c3, c4, 1)
 }

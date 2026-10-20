@@ -5,7 +5,7 @@ op_space = 16;
 menu_level = 0;
 pos = 0;
 
-option[0, 0] = "Travel Through the Stars"
+option[0, 0] = "Start game"
 option[0, 1] = "Quit Game"
 option[0, 2] = "Credits"
 

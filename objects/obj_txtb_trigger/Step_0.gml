@@ -1,5 +1,10 @@
 if place_meeting(x, y, obj_cedric) and !instance_exists(obj_textbox)
     {
-        create_textbox(text_id)
-        instance_destroy()
+        
+        alarm--;
+        if alarm[0] = 0
+            {
+                create_textbox(text_id)
+                instance_destroy()
+            }    
     }
