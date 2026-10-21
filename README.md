@@ -28,7 +28,7 @@ The low number of commits compared to the high number of hours is because all of
 
 ## Setup
 ### Play the Game
-Download the game on itch.io: [text](https://fluxmynk.itch.io/journey-through-the-stars)
+Download the game on itch.io from [here](https://fluxmynk.itch.io/journey-through-the-stars)
 
 ### Open the project
 1. Clone this repository
