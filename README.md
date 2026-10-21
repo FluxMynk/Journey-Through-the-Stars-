@@ -36,9 +36,9 @@ Download the game on itch.io: [text](https://fluxmynk.itch.io/journey-through-th
 3. Enjoy
 
 ## Built using
-Gamemaker Studio
-Aseprite
-raw Hopes and dreams
+- Gamemaker Studio
+- Aseprite
+- raw Hopes and dreams
 
 ## AI usage
 AI was only used to help debug code and answer programming related questions, **not write it**, everything was done by me, from drawing assets to coding to playtesting.
