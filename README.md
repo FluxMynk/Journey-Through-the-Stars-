@@ -11,7 +11,7 @@ Skip text with **X**
 Sprint with **Left Shift**
 ## Screenshots
 Main Menu:
-![alt text](image.png)
+<img width="1490" height="786" alt="Screenshot 2026-10-21 091811" src="https://github.com/user-attachments/assets/38df3b60-977b-46a9-907e-6183abf3a230" />
 Dialogue:
 ![alt text](<Screenshot 2026-10-21 093604.png>)
 Maze:
@@ -19,9 +19,12 @@ Maze:
 
 ## Future plans:
 
-More puzzles and better riddles
-Other areas like an underground cave
-Add a combat system
+- More puzzles and better riddles
+- Other areas like an underground cave
+- Add a combat system
+
+## Quick Notice
+The low number of commits compared to the high number of hours is because all of the assets used inside the game were made by me! the art took around 30-40% of the time, and in my defense, I cannot commmit raw sprites without implementing them inside the game first.
 
 ## Setup
 ### Play the Game
