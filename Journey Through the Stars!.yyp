@@ -58,7 +58,7 @@
     {"id":{"name":"obj_wiz","path":"objects/obj_wiz/obj_wiz.yy",},},
     {"id":{"name":"Tree1","path":"objects/Tree1/Tree1.yy",},},
     {"id":{"name":"Tree2","path":"objects/Tree2/Tree2.yy",},},
-    {"id":{"name":"rm_beginning_black","path":"rooms/rm_beginning_black/rm_beginning_black.yy",},},
+    {"id":{"name":"rm_beginning_black_1","path":"rooms/rm_beginning_black_1/rm_beginning_black_1.yy",},},
     {"id":{"name":"rm_forest_first","path":"rooms/rm_forest_first/rm_forest_first.yy",},},
     {"id":{"name":"rm_forest_home","path":"rooms/rm_forest_home/rm_forest_home.yy",},},
     {"id":{"name":"rm_forest_lake","path":"rooms/rm_forest_lake/rm_forest_lake.yy",},},
@@ -127,7 +127,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
-    {"roomId":{"name":"rm_beginning_black","path":"rooms/rm_beginning_black/rm_beginning_black.yy",},},
+    {"roomId":{"name":"rm_beginning_black_1","path":"rooms/rm_beginning_black_1/rm_beginning_black_1.yy",},},
     {"roomId":{"name":"rm_home_inside","path":"rooms/rm_home_inside/rm_home_inside.yy",},},
     {"roomId":{"name":"rm_forest_home","path":"rooms/rm_forest_home/rm_forest_home.yy",},},
     {"roomId":{"name":"rm_forest_left","path":"rooms/rm_forest_left/rm_forest_left.yy",},},
